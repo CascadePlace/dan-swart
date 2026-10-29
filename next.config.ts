@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 // When building for GitHub Pages (GITHUB_PAGES=true in the Actions workflow),
 // emit a fully static export served from https://<user>.github.io/cascade/.
 const isGithubPages = process.env.GITHUB_PAGES === "true";
-const basePath = isGithubPages ? "/cascade" : "";
+const basePath = "";
 
 const nextConfig: NextConfig = {
   // Hide the Next.js dev-tools indicator (the floating "N" button). It renders
